@@ -1,5 +1,5 @@
 export const fetchGeo = async (query) => {
-    const url = `https://ip-api.com/json/${encodeURIComponent(
+    const url = `http://ip-api.com/json/${encodeURIComponent(
         query
     )}?fields=status,message,query,isp,timezone,country,regionName,city,lat,lon`;
 
