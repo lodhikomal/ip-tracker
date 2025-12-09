@@ -1,0 +1,25 @@
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.loading {
+  margin-top: 10px;
+  color: #555;
+}
+
+.map-box {
+  margin-top: 20px;
+  height: 400px;
+}

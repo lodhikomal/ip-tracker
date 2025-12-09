@@ -1,0 +1,21 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-container input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background: #2b6cff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
